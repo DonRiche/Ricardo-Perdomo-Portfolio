@@ -141,6 +141,7 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
+  height: 147.19px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -160,7 +161,7 @@ h3, h2 {
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0;
+  margin-bottom: -32px;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
