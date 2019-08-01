@@ -183,8 +183,9 @@ list-style-type:none;
 }
 
 .check-list a{
-  color: #806459;
+  color:#806459;
 }
+
 
 @media (max-width: 980px) {
   #masthead {
