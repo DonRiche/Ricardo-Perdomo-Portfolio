@@ -24,7 +24,7 @@ body{
     color: whitesmoke;
     position:absolute;
     top: 18%;
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-left: 3%;
     text-shadow: 5px 5px 10px  black;
 }
@@ -32,8 +32,8 @@ body{
 .header_info{
     color: #C7726F;
     position:absolute;
-    top: 25%;
-    font-size: 1.5rem;
+    top: 28%;
+    font-size: .75rem;
     font-family: 'Open Sans', sans-serif;
     margin-left: 3%;
     text-shadow: 5px 5px 10px  black;
@@ -43,12 +43,12 @@ body{
     color: #C7726F;
     margin-top: 6%;
     margin-bottom: 1%;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .about_info{
     color: #647A6C;
-    font-size: 2rem;
+    font-size: .75rem;
     font-family: 'Open Sans', sans-serif;
 }
 
