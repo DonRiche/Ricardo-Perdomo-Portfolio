@@ -130,7 +130,7 @@ margin-left: 43%;
     background-color:#5C5656;
 }
 
-@media (min-width: 600px){
+@media (min-width: 1200px){
     .header_text{
         font-size: 3rem;
     }
