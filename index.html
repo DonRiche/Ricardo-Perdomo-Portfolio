@@ -4,53 +4,170 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Ricardo Perdomo</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="device-width,initial-scale=1.0">
+
+
   <script src="https://kit.fontawesome.com/0109a9a2a0.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300|Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
+  <div class="container-fluid">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Ricardo Perdomo</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div class="row">
+      <header class="banner">
+        <img class="header_img" src="assets/images/Self portrait D.jpg" alt="Ricardo Perdomo">
+        <h1 class="header_text">
+          Ricardo Perdomo
+        </h1>
+        <p class="header_info">
+          Aritist/Designer/Illustrator
+        </p>
+      </header>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+    <div class="row">
+      <div class="col">
+        <h1 class="about_header">
+          About
+        </h1>
+        <p class="about_info">
+          He was born and raised in Tegucigalpa, Honduras and now reside in Overland Park, Kansas. When he is not glued
+          to a computer screen, He spent time drawing/ illustrating and chasing after his two young daughters Audrey 8
+          and Grey 3. He also has a 21 year old daughter, Valerie and a loving wife Nicole. His passion for creating
+          also led to small t-shirt project called Audrilla Studios.
 
-      <img src="assets/images/bioPic.jpg" class="auth-image" alt="Ricardo Perdomo">
+          He currently works at GOT systems ( a grocery inventory software company), gaining experience on the client
+          management end, while he completes his certification as a web developer through The University of Kansas.
 
-      <p>I was born and raised in Tegucigalpa, Honduras and now reside in Overland Park, Kansas. When I was not glued
-        to a computer screen, I spent time drawing/ illustrating and chasing after my two young daughters Audrey 8 and
-        Grey 3. I also have a 21 year old daughter, Valerie and a loving wife Nicole. My passion for creating also led
-        to
-        small t-shirt business
-        called Audrilla Studios.</p>
+          While working for the company Sulavisión, a cable channel in his native Honduras and MOB Productions ( a small
+          Private Production company); He gained experience as a graphic animator/editor and realized that he has a
+          passion for the technical and design areas.
+        </p>
+      </div>
+    </div>
 
-      <p>I currently work at GOT systems ( a grocery inventory software company), gaining experience on the client
-        management end, while I completes my certification as a web developer through The University of Kansas.</p>
+    <div class="row">
+      <div id="banner_id" class="col-lg-12">
+        <h1 class="banner_header">
+          PORTFOLIO
+        </h1>
+      </div>
+    </div>
 
-      <p>While working for the company Sulavisión, a cable channel in my native Honduras and MOB Productions ( a small
-        Private Production company); I gained experience as a graphic animator/editor and realized that I have a passion
-        for the technical and design areas.</p>
+    <div class="row justify-content-around">
 
-    </section>
+      <div class="col-lg-4">
+        <div class="card">
+          <img class="thumbnail_img" src="assets/images/theSpotCROPPED.jpg" class="card-img-top" alt="The Spot">
+          <div class="card-body">
+            <a href="https://celving.github.io/Project1/index.html">
+              <h5 class="card_title">The Spot</h5>
+            </a>
+            <p class="card_text">This app will help you find a "SPOT" (bar,restaurant or cafe) within a 1-5 mile radius
+              between the two users. In this project I collaborated by handling all of the UI (HTML and CSS).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img class="thumbnail_img" src="assets/images/triviaPicCROPPED.jpg" class="card-img-top" alt="Trivia Game">
+          <div class="card-body">
+            <a href="https://donriche.github.io/TriviaGame/">
+              <h5 class="card_title">Trivia Game</h5>
+            </a>
+            <p class="card_text">A quick fun guessing trivia game I made as a class project.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img class="thumbnail_img" src="assets/images/audrillaOnHandMontageCROPPED.jpg" class="card-img-top"
+            alt="Trivia Game">
+          <div class="card-body">
+            <a href="https://ricardoperdomo1.artstation.com/">
+              <h5 class="card_title">Projects/Illustrations/Art</h5>
+            </a>
+            <p class="card_text">This link will guide you to several projects i've worked on throughout my art career
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div id="banner_id" class="col-lg-12">
+
+        <h1 class="banner_header">
+          Contact
+        </h1>
+      </div>
+    </div>
+
+    <div id="footer_banner" class="row justify-content-around">
+      <div class="col-lg-4">
+        <form id="contact-form">
+          <ul class="check-list">
+            <li><i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:hndgd1980@gmail.com">hndgd1980@gmail.com</a>
+            </li>
+            <li><i class="fas fa-mobile-alt" aria-hidden="true"></i>
+              <a href="tel:+18162779412">816-277-9412</a>
+            </li>
+            <li><i class="fas fa-file" aria-hidden="true"></i>
+              <a href="assets/images/Resume.pdf">Resume.PDF</a>
+            </li>
+            <li><i class="fab fa-github-square" aria-hidden="true"></i>
+              <a href="https://github.com/DonRiche">GitHub Repo</a>
+            </li>
+            <li><i class="fab fa-linkedin" aria-hidden="true"></i>
+              <a href="https://www.linkedin.com/in/ricardo-perdomo-829228101/">LinkedIn</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+
+      <div class="col-lg-4">
+        <img id="logo" src="assets/images/rpLogo.svg" alt="Ricardo Logo">
+        <p class="footer_copy">Copyright 2019 &copy;</p>
+      </div>
+
+
+    </div>
+
+
+
+
 
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
+
+  </div>
+
+
 </body>
 
 </html>
