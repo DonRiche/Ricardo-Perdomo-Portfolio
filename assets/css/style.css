@@ -59,7 +59,7 @@ background-color: #5C5656;
 .banner_header{
     margin-top: 3%;
     margin-bottom: 3%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     text-shadow: 5px 5px 10px  black;
     color: #647A6C;
@@ -71,7 +71,7 @@ background-color: #5C5656;
     padding-top: 0% auto;
     margin-top: 3%;
     margin-bottom: 3%;
-    height: 75vh;
+    height: 96%;
 }
 
 .thumbnail_img{
@@ -99,6 +99,7 @@ p{
 }
 
 ul {
+    font-size: .75rem;
     margin-left: 16%;
     color:#B7C7BD;
     padding: 5%;
@@ -130,7 +131,7 @@ margin-left: 43%;
     background-color:#5C5656;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 600px){
     .header_text{
         font-size: 3rem;
     }
@@ -164,5 +165,106 @@ margin-left: 43%;
         
         .footer_copy{
             font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .header_text{
+        font-size: 3rem;
+    }
+
+    .header_info{
+        font-size: 2rem;
+        top: 25%;
+    }
+
+    .about_header{
+        margin-top: 1.5%;
+        font-size: 2rem;
+    }
+
+    .about_info{
+        font-size: 1.2rem;
+        line-height:1.90em; 
+        margin-bottom: 2%;
+    }
+
+    .banner_header{
+        font-size: 2rem;
+        padding: 0%;
+    }
+
+    .card_title{
+        font-size: 1.75rem;
+    }
+
+    .card_text{
+        font-size: 1.2rem;
+    }
+    
+    ul {
+     font-size: 1em;
+    }
+
+    #logo{
+        widows:60px;
+        height:60px;
+        align-content: center;
+        margin-left: 41%;
+    }
+        
+        .footer_copy{
+            font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 2560px){
+    .header_text{
+        font-size: 8rem;
+    }
+
+    .header_info{
+        font-size: 5rem;
+        top: 25%;
+    }
+
+    .about_header{
+        margin-top: 1.5%;
+        font-size: 5rem;
+    }
+
+    .about_info{
+        font-size: 2rem;
+        line-height:1.90em; 
+        margin-bottom: 2%;
+    }
+
+    .banner_header{
+        font-size: 6rem;
+        padding: 0%;
+    }
+
+    .card_title{
+        font-size: 3rem;
+    }
+
+    .card_text{
+        font-size: 2rem;
+    }
+    
+    ul {
+     font-size: 2.5rem;
+    }
+
+    #logo{
+        widows:200px;
+        height:200px;
+        align-content: center;
+        margin-left: 35%;
+    }
+        
+        .footer_copy{
+            font-size: 3rem;
     }
 }
