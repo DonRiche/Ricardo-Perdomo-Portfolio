@@ -6,7 +6,6 @@
   <title>Ricardo Perdomo</title>
   <meta name="viewport" content="device-width,initial-scale=1.0">
 
-
   <script src="https://kit.fontawesome.com/0109a9a2a0.js"></script>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -27,16 +26,28 @@
 
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:300|Open+Sans&display=swap" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+    integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+    integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div id="main_container" class="animated fadeIn container-fluid">
 
     <div class="row">
       <header class="banner">
-        <img class="header_img" src="assets/images/Self portrait D.jpg" alt="Ricardo Perdomo">
+        <img class="animated fadeIn header_img" src="assets/images/Self portrait D.jpg" alt="Ricardo Perdomo">
         <h1 class="header_text">
           Ricardo Perdomo
         </h1>
@@ -75,10 +86,10 @@
       </div>
     </div>
 
-    <div class="row justify-content-around">
+    <div id="card_div" class="row justify-content-around">
 
       <div class="col-lg-4">
-        <div class="card">
+        <div id="spot_div" class="card">
           <img class="thumbnail_img" src="assets/images/theSpotCROPPED.jpg" class="card-img-top" alt="The Spot">
           <div class="card-body">
             <a href="https://celving.github.io/Project1/index.html">
@@ -138,7 +149,7 @@
               <a href="tel:+18162779412">816-277-9412</a>
             </li>
             <li><i class="fas fa-file" aria-hidden="true"></i>
-              <a href="assets/images/Resume.pdf">Resume.PDF</a>
+              <a href="assets/images/Resume.pdf">Resume</a>
             </li>
             <li><i class="fab fa-github-square" aria-hidden="true"></i>
               <a href="https://github.com/DonRiche">GitHub Repo</a>
@@ -151,7 +162,9 @@
       </div>
 
       <div class="col-lg-4">
-        <img id="logo" src="assets/images/rpLogo.svg" alt="Ricardo Logo">
+        <a href="index.html">
+          <img id="logo" src="assets/images/rpLogo.svg" alt="Ricardo Logo">
+        </a>
         <p class="footer_copy">Copyright 2019 &copy;</p>
       </div>
 
@@ -167,7 +180,7 @@
 
   </div>
 
-
+  <script type="text/javascript" src="assets/js/animation.js"></script>
 </body>
 
 </html>
