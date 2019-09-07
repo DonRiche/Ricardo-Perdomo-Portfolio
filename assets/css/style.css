@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(../images/linedpaper.png);
+    background-color: #5C5656;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Comfortaa', cursive;
 }
@@ -52,7 +52,7 @@ animation-delay:.25s;
 }
 
 .about_info{
-    color: #647A6C;
+    color: #B7C7BD;
     font-size: .75rem;
     font-family: 'Open Sans', sans-serif;
 }
